@@ -1,0 +1,27 @@
+<aside>
+	<form action="">
+		<label for="img_upload">Image</label>
+		<div class="upload-btn">
+			<input id="img_upload" name="img_upload" type="file" accept="image/*">
+			<button class="btn-one-third" type="button" for="img_upload" tabindex="-1">Upload</button>
+			<input class="btn-two-thirds" id="img_name" name="img_name" type="text" placeholder="No file selected" disabled>
+		</div>
+		<div class="colors">
+			<div class="color">
+				<label for="color1">Color 1</label>
+				<input id="color1" type="color" name="color1" value="#ffffff">
+			</div>
+			<div class="color">
+				<label for="color2">Color 2</label>
+				<input id="color2" type="color" name="color2" value="#000000">
+			</div>
+		</div>
+		<div class="btn-group">
+			<button class="btn-half" id="swap-colors" type="button">Swap Colors</button>
+			<a href="#" class="btn-link btn-half dl-btn" id="download" download="result.png">&#x44;&#x6f;&#x77;&#x6e;&#x6c;&#x6f;&#x61;&#x64;</a>
+		</div>
+	</form>
+</aside>
+<main>
+	<canvas></canvas>
+</main>
